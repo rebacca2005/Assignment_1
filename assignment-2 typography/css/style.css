@@ -1,17 +1,19 @@
+/* Global styles */
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 
+/* Header styles */
 header {
     background-color: #000000;
     display: flex;
     align-items: center;
-    height: 125px;
-    padding: 0px 25px;
+    height: 155px;
+    padding: 0 25px;
 }
 
 header div {
@@ -39,21 +41,185 @@ header h1 {
 /* CSS styles for section-1 */
 .section-1 {
     font-family: 'Sedgwick Ave Display', cursive;
-    color: white;
-    background-color: rgb(223, 39, 70);
-    font-size: 35px; /* Increase the font size */
-    margin: 20px auto; /* Add margin to separate sections and center-align the text */
-    text-align: center; /* Center-align the text */
-    padding: 30px 0; /* Add padding to remove the gap between sections */
+    color: #40e0d0;
+    background: linear-gradient(to bottom, rgb(245, 152, 168), rgb(255, 0, 43));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 35px;
+    margin: 0; /* Remove top and bottom margins to eliminate gaps */
+    text-align: center;
+    padding: 30px 0;
 }
 
 /* CSS styles for section-2 */
 .section-2 {
     font-family: 'Rock Salt', cursive;
-    color: white;
+    color: #ffff00;
+    background: linear-gradient(to bottom, rgb(255, 0, 43), rgb(255, 166, 0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-3 */
+.section-3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ff0000;
+    background: linear-gradient(to bottom, rgb(255, 166, 0), rgb(43, 255, 1));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 27px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-4 */
+.section-4 {
+    font-family: 'Kalam', cursive;
+    color: #0000ff;
+    background: linear-gradient(to bottom, rgb(43, 255, 1), rgb(71, 255, 212));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 37px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-5 */
+.section-5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    color: #ffa500;
+    background: linear-gradient(to bottom, rgb(71, 255, 212), rgb(2, 2, 255));
+    font-weight: 700;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-6 */
+.section-6 {
+    font-family: 'Satisfy', cursive;
+    color: #000000;
+    background: linear-gradient(to bottom, rgb(2, 2, 255), rgb(160, 93, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 38px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-7 */
+.section-7 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ff0000;
+    background: linear-gradient(to bottom, rgb(160, 93, 255), rgb(230, 0, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 27px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-8 */
+.section-8 {
+    font-family: 'Kalam', cursive;
+    color: #0000ff;
+    background: linear-gradient(to bottom, rgb(230, 0, 255), rgb(255, 153, 170));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 37px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-9 */
+.section-9 {
+    font-family: 'Raleway', sans-serif;
+    color: #ffa500;
+    background: linear-gradient(to bottom, rgb(255, 153, 170), rgb(255, 101, 127));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-10 */
+.section-10 {
+    font-family: 'Fuggles', cursive;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, rgb(255, 101, 127), rgb(255, 0, 43));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-11 */
+.section-11 {
+    font-family: 'Satisfy', cursive;
+    background: linear-gradient(to bottom, rgb(255, 0, 43), rgb(255, 166, 0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #650000;
+    font-size: 33px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-12 */
+.section-12 {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom, rgb(255, 166, 0), rgb(43, 255, 1));
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #8400ff;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-13 */
+.section-13 {
+    font-family: 'Fuggles', cursive;
+    color: rgb(251, 0, 67);
+    background: linear-gradient(to bottom, rgb(43, 255, 1), rgb(71, 255, 212));
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* CSS styles for section-14 */
+.section-14 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    background: linear-gradient(to bottom, rgb(71, 255, 212), rgb(2, 2, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffd000;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Footer styles */
+footer {
     background-color: #000000;
-    font-size: 25px; /* Increase the font size */
-    margin: 20px auto; /* Add margin to separate sections and center-align the text */
-    text-align: center; /* Center-align the text */
-    padding: 30px 0; /* Add padding to remove the gap between sections */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
 }
